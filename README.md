@@ -18,6 +18,7 @@
 
 
 布局配置此控件：
+
     <com.yanyiyun.mypagerindicatorlib.DynamicPagerIndicator
             android:id="@+id/dynamic_pager_indicator1"
             android:layout_width="match_parent"
@@ -32,6 +33,7 @@
             app:tabSelectedTextColor="#fff4ce46"
             app:tabSelectedTextSize="16sp"
             app:tabTextColorMode="gradient"/>
+	    
 
         <android.support.v4.view.ViewPager
             android:id="@+id/view_pager1"
