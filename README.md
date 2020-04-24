@@ -3,7 +3,14 @@
 
 一、如何引入DynamicPagerIndicator？
 
-在module的build.gradle 添加:
-compile 'com.kcrason:dynamicpagerindicator:1.5.0'
+在app的build.gradle 添加:
+
+	dependencies {
+	        compile 'com.github.Visen123:PagerIndicator:V1.0'
+	}
+        
 3.0以上gradle版本为：
-implementation 'com.kcrason:dynamicpagerindicator:1.5.0'
+	dependencies {
+	        implementation 'com.github.Visen123:PagerIndicator:V1.0'
+	}
+
