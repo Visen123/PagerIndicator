@@ -40,6 +40,11 @@
             android:layout_width="match_parent"
             android:layout_height="200dip"/>
 	    
-	    
+	  
+代码对此控件进行设置：
+
+        val viewPager1 = findViewById<ViewPager>(R.id.view_pager1)
+        val dynamicPagerIndicator1 = findViewById<DynamicPagerIndicator>(R.id.dynamic_pager_indicator1)
+        setViewPagerContent(viewPager1, dynamicPagerIndicator1, 2)
           
 
